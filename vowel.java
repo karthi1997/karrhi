@@ -22,7 +22,7 @@ public static void main(String[] arg)
  if(count==1)
  System.out.print("vowels");
  else
-    System.out.println("constants");
+    System.out.println("consonants");
     
 }
     }
