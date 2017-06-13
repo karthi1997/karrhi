@@ -5,7 +5,7 @@ public class rev
  {
   Scanner s=new Scanner(System.in);
   String str1=s.next();
-  String reverse=new stringBuffer(str1).reverse().toString();
+  String reverse=new StringBuffer(str1).reverse().toString();
   System.out.println(reverse);
   }
   }
