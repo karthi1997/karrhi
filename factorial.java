@@ -1,17 +1,16 @@
 import java.util.*;
-public class factorial
+public class Factorial
 {
- public static void main(String[] arg)
- {
-  Scanner s=new Scanner(System.in);
-  int n=s.nextInt();
-  int sum=1;
-  for(int i=1;i<=n;i++)
-  {
-      {
-    sum=sum*i;
+public static void main(String[] args)
+{
+ Scanner sc=new Scanner(System.in);
+ int fact=1;
+ int n=sc.nextInt();
+ for(int i=1;i<=n;i++)
+{
+    fact=fact*i;
     }
-  }
-    System.out.println(sum);
-    }
+ System.out.println(fact);
 }
+}
+ 
