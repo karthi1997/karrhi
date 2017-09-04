@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class nrepeat {
 	public static void main(String args[])
 	{
-		 Scanner s=new Scanner(System.in);
-		    int n=s.nextInt();
+		 Scanner sc=new Scanner(System.in);
+		    int a=sc.nextInt();
 		    int flag=0;
-		    int[] a=new int[n];
-		    for(int i=0;i<n;i++)
+		    int[] b=new int[n];
+		    for(int i=0;i<a;i++)
 		    {
-		        a[i]=s.nextInt();
+		        b[i]=sc.nextInt();
 		    }
 		    for(int i=0;i<n;i++)
 		    {
-		    if(a[i]==i)
+		    if(b[i]==i)
 		    {
-		    	System.out.print("the number " +a[i]+ " equal to its index "+i);
+		    	System.out.print("the number " +b[i]+ " equal to its index "+i);
 		    }System.out.println(" ");
 		    }
 		   
